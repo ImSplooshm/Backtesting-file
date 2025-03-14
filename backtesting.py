@@ -2,9 +2,8 @@ from tqdm import tqdm
 import pandas as pd
 import math
 import matplotlib.pyplot as plt
-import signals
-from data import *
-
+#IMPORT YOUR SIGNALS MODULE
+#IMPORT YOUR DATA MODULE
 def backtest(method, path, balance = 1000, risk = 0.1):
     initial_balance = balance
 
@@ -89,6 +88,6 @@ def backtest(method, path, balance = 1000, risk = 0.1):
 
     return results, plt
 
-results, plt = backtest(method = signals.m_10, path = 'inplace_data/')
+results, plt = backtest(method = REPLACE YOUR MODEL FUNCTION NAME HERE, path = 'inplace_data/')
 print(results)
 plt.show()
