@@ -1,0 +1,1 @@
+Note, you must import your data module and signals module at the top, then replace the function name within the backtesting function with your own function names, the signal function is inputted as a parameter to make it easier to change.
